@@ -368,6 +368,7 @@ margin-top: 100px;
 
 }
 footer section div div i{
+
   margin: 10px;
   color: #071629;
   background-color: #fff;
@@ -375,8 +376,11 @@ footer section div div i{
   height: 30px;
   border-radius: 20px;
   text-align: center;
+}
+footer section div div i::before{
+  position: relative;
+  top: 6px;
   
-
 }
 
 footer section p{
