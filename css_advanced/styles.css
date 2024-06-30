@@ -159,16 +159,22 @@ blockquote{
 
 }
 #section3{
-  padding-left: 280px;
-  
+  /*padding-left: 280px;*/
+  height: 625px;
 
-
+}
+.popular_tutorials{
+margin-left: 200px;
+margin-right: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 #section3 > h2{
 text-align: center;
 font-weight: 300;
 margin-top: 70px;
-margin-right: 270px;
+
 margin-bottom: 60px;
 font-size: 35px;
 
